@@ -19,7 +19,7 @@ function draw() {
       push()
 
       translate(xpos + (xstep * kolom), ypos + (ystep * rij))
-      rotate(frameCount / 40); // bepaalt hoe snel de vierkantjes draaien
+      rotate(frameCount / 30); // bepaalt hoe snel de vierkantjes draaien
       if (kolom < 3) {
 
         if (rij < 3) { // als de kolom en rij kleiner is dan 3 kleur rood
@@ -42,7 +42,7 @@ function draw() {
       }
 
 
-      rect(0, 0, 50, 50) // bepaalt hoe groot de vierkantjes zijn
+      rect(0, 0, 70, 70) // bepaalt hoe groot de vierkantjes zijn
 
 
       pop()
