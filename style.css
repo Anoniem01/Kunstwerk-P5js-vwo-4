@@ -2,7 +2,11 @@ html, body {
   margin: 0;
   padding: 0;
   background: rgb(0, 204, 102);
+  
 }
 canvas {
   display: block;
+}
+h1 {
+  color: Tomato;
 }
