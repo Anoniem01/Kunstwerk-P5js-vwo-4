@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
 
-  background(0, 255, 0) // maakt de achtergrond groen
+  background(LightGray) // maakt de achtergrond lichtgrijs
 
   for (var kolom = 0; kolom < 6; kolom++) { // als de kolom kleiner is dan 6 teken dan nog een     vierkantje 
     for (var rij = 0; rij < 6; rij++) { // als de rij kleiner is dan 6 teken dan nog een vierkantje 
